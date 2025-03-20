@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="images/mainlogo.png" type="image/x-icon">
+    <title>Modern Design | Lab4</title>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" href="#">
+                <img src="images/mainlogo.png" alt="Brand" style="width: 56px; height: 56px;">
+            </a>
+            <!-- Non-visible on desktop -->
+            <div class="d-lg-none d-flex gap-2">
+                <button class="btn" type="button"><img src="images/search.png" style="width: 30px; height: 30px;"></button>
+                <button class="btn" type="button"><img src="images/court.png" style="width: 30px; height: 30px;"></button>
+            </div>
+    
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+    
+            <!-- Nav -->
+            <div class="navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav me-auto">
+                    <a class="nav-link active" href="#">About Us</a>
+                    <a class="nav-link" href="#">Service</a>
+                    <a class="nav-link" href="#">Menu</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+    
+                <!-- Non-visible on mobile -->
+                <div class="d-none d-lg-flex gap-2">
+                    <button class="btn" type="button"><img src="images/search.png" style="width: 40px; height: 40px;"></button>
+                    <button class="btn" type="button"><img src="images/court.png" style="width: 40px; height: 40px;"></button>
+                </div>
+                <button class="btn btn-success" type="button">Register Now</button>
+            </div>
+        </div>
+    </nav>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Image (first in mobile ver.) -->
+                <div class="col-lg-6 order-lg-2 text-center d-lg-none">
+                    <img src="images/vegetables-fruits-white.png" 
+                        alt="FRUITS_AND_VEGETABLES"
+                        class="img-fluid">
+                </div>
+                <!-- text-block -->
+                <div class="col-12 order-lg-1 d-flex flex-column justify-content-center justify-content-lg-center align-items-center">
+                    <h1>Organic Fruit & Vegetables</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
+                    <div class="button-box d-flex justify-content-center justify-content-lg-center align-items-center">
+                        <span>Order Now</span>
+                        <button class="order-now">
+                            <i class="fa-solid fa-arrow-right-long" style="color: #fff;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- stat-block -->
+            <div class="d-flex gap-5 align-items-center justify-content-center">
+                <div class="col-lg-8 text-center d-none d-lg-block">
+                    <img src="images/vegetables-fruits-white.png" 
+                         alt="FRUITS_AND_VEGETABLES"
+                         style="width: 862px; height: 466px;">
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                    <ul class="inner-stat-box">
+                        <li>
+                            <img src="images/human.png" style="width: 56px; height: 56px;">
+                            <div class="stat-text-box">
+                                <h3>30K</h3>
+                                <span>User Order</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/star.png" style="width: 56px; height: 56px;">
+                            <div class="stat-text-box">
+                                <h3>20K</h3>
+                                <span>Reviews(4,8)</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/items.png" style="width: 56px; height: 56px;">
+                            <div class="stat-text-box">
+                                <h3>300</h3>
+                                <span>Items</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="adv" id="about--us">
+        <div class="col-lg-6 container2-1">
+            <h1>Why We Are The Best?</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                 standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
+            <div class="col-8 order-lg-2 d-lg-none">
+                <img src="images/deliver-man.png" alt="Deliver" style="width: 510px; height: 600px; margin-bottom: 76px;">
+            </div>
+            <ul>
+                <li class="fasted-delivery">
+                    <img src="images/deliver.png" alt="Fasted_deliver" style="width: 80px; height: 80px;">
+                    <div class="text-content">
+                        <h3>Fasted delivery Service</h3>
+                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                    </div>
+                </li>
+                <li class="online-order">
+                        <img src="images/online-order-device.png" alt="Online_order" style="width: 80px; height: 80px;">
+                        <div style="width: 277px;">
+                            <h3>Online order Service</h3>
+                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                        </div>
+                </li>
+                <li class="whole-day-service">
+                    <img src="images/clock.png" alt="24/7 Service" style="width: 80px; height: 80px;">
+                    <div class="text-content">
+                        <h3>24/8 Service</h3>
+                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                    </div>
+                </li>
+                <li><button><i class="fa-solid fa-arrow-down-long"></i></button></li>
+            </ul>
+        </div>
+        <div class="col-3 d-none d-lg-block">
+            <img src="images/deliver-man.png" alt="Deliver" style="width: 510px; height: 600px; margin-bottom: 146px;">
+        </div>
+    </section>
+    <section class="special-items" id="service">
+        
+        <div class="col-lg-5 container3-1">
+            <img src="images/fr-and-veg.png" alt="Fruits_And_Vegetables" style="width: 600px; height: 600px;">
+            <div class="col-8 order-lg-2 d-lg-none" style="width: 378x; height: 363px;">
+                <img src="images/listo4ki2.png" alt="Leaves" style="width: 414px; height: 397px;">
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 container3-2">
+            <h1>Explor Our Special Items</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...</p>
+            <div class="button-container">
+                <button class="explore-now">
+                    <p>Explor Now</p>
+                    <img src="images/right-arrow2.png" alt="Click_to_explore" style="width: 64px; height: 64px;">
+                </button>
+                <div class="col-lg-8 d-none d-lg-block">
+                    <img src="images/listo4ki2.png" alt="Leaves" style="width: 414px; height: 397px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 container4-1">
+                <h1>What Our Customers About Us saying</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It 
+                    was popularis
+                </p>
+                <div class="rate">
+                    <h2>Ahmed Hridoy</h2>
+                    <div class="star-box">
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="buttons">
+                            <button class="click-left"><i class="fa-solid fa-chevron-left" style="color: #CCCCCC;"></i></button>
+                            <button class="click-right"><i class="fa-solid fa-chevron-right" style="color: #fff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 align-items-center container4-2" id="rating">   
+                <img src="images/employee.png" alt="Employee" style="width: 500px; height: 500px;">
+                <div class="rate-box">
+                    <div class="rates">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="photo-set">
+                        <img src="images/empl1.png" style="width: 32px; height: 32px;">
+                        <img src="images/empl2.png" style="width: 32px; height: 32px;">
+                        <img src="images/empl3.png" style="width: 32px; height: 32px;">
+                        <img src="images/empl4.png" style="width: 32px; height: 32px;">
+                        <img src="images/empl5.png" style="width: 32px; height: 32px;">
+                        <img src="images/empl6.png" style="width: 32px; height: 32px;">
+                        <button class="learn-more"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order-way">
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 image-mobile" style="padding: 0; text-align: right;">
+                <img src="images/Group 5297.png" alt="Mobile_APP1">
+            </div>
+            <div class="col-lg-6 col-sm-6 container5" style="padding: 0;">
+                <button class="download-button">Download App</button>
+                <h1>Simple Way To Order Your Organic Fruit </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...</p>
+                <div class="go-to">
+                    <button><img src="images/App Store - eng.png"></button>
+                    <button><img src="images/Google Play - eng.png"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="col-lg-3 col-sm-3 logo-description">
+            <img src="images/mainlogo.png" alt="LOGO" style="width: 70px; height: 70px;">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...</p>
+        </div>
+        <div class=" col-lg-3 col-sm-3 navigation" style="width: 120px;">
+            <h3 style="margin-bottom: 40px;">Navigation</h3>
+            <p>About Us</p>
+            <p>Service</p>
+            <p>Menu</p>
+        </div>
+        <div class="col-lg-3 col-sm-3 resources" style="width: 117px;">
+            <h3>Resources</h3>
+            <p>Reviews</p>
+            <p>Blog</p>
+            <p>Update News</p>
+        </div>
+        <div class="col-lg-3 col-sm-3 contact-us" style="width: 215px;">
+            <h3>Contact Us</h3>
+            <p>Email: oyasim@email.com</p>
+            <div class="social-media">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
