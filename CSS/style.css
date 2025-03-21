@@ -11,6 +11,7 @@
 /* Navbar */
 
 .navbar {
+    max-width: 100%;
     background-color: #fff !important;
     min-height: 56px;
     display: flex !important;
@@ -295,6 +296,7 @@ li button:active{
 /* Navbar for Mobile devices */
 @media (max-width: 992px) {
     .navbar {
+        width: 992px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -322,6 +324,7 @@ li button:active{
 @media (max-width: 992px){
 
     header{
+        min-width: 992px;
         background-position: -15px 280px;
     }
 
@@ -349,7 +352,7 @@ li button:active{
 /* 3RD BLOCK */
 
 .special-items{
-    width:100%;
+    max-width: 1440px;
     height: 832px;
     background-color: #F3FBF8;
     display: flex;
@@ -429,6 +432,7 @@ li button:active{
 
 @media (max-width: 992px){
     .adv {
+        width: 992px;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -455,6 +459,7 @@ li button:active{
 
 @media (max-width: 992px) {
     .special-items{
+        width: 992px;
         min-height: 822px;
         flex-direction: column;
     }
@@ -491,7 +496,7 @@ li button:active{
 /* 4TH BLOCK */
 
 .about-us {
-    width:100%;
+    max-width:100%;
     background-color: #FFFFFF;
     display: flex;
     gap: 300px;
