@@ -506,6 +506,7 @@ li button:active{
     gap: 300px;
     margin-top: 96px;
     margin-bottom: 48px;
+    flex-wrap: nowrap;
 }
 
 .container4-1{
@@ -684,10 +685,11 @@ li button:active{
     align-items: center;
     justify-content: center;
     margin-top: 48px;
+    flex-wrap: nowrap;
 }
 
 .container5{
-    max-width: 663px;
+    width: 663px;
     margin-left: 113px;
 }
 
@@ -744,7 +746,7 @@ li button:active{
     }
 
     .container5{
-        width: 523px;
+        max-width: 523px;
         margin-left: 80px;
     }
     .container5 h1{
